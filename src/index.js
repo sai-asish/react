@@ -8,13 +8,15 @@ import store from './store';
 import showResults from './showResults';
 import MaterialUiForm from './MaterialUiForm';
 import BasicForm from './BasicForm';
+import UserRegistration from './UserRegistration';
+import configureStore from './store';
 
 const rootEl = document.getElementById('root');
 
 ReactDOM.render(
-   <Provider store={store}>
+   <Provider store={configureStore()}>
       <div style={{ padding: 15 }}>
-        <BasicForm />
+        <UserRegistration />
       </div>
   </Provider>,
   rootEl
