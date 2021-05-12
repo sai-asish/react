@@ -55,7 +55,7 @@
     "google-address-autocomplete": "^1.4.0",
     "install": "^0.13.0",
     "material-ui-dropzone": "2.2.2",
-    "mathjs": "5.5.0",
+    "mathjs": "7.5.1",
     "mui-places-autocomplete": "^2.0.0",
     "node-geocoder": "^3.23.0",
     "npm": "^6.10.3",
